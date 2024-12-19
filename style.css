@@ -1,0 +1,120 @@
+@font-face {
+    font-family: 'CevicheOne';  /* Nom de la police que vous allez utiliser */
+    src: url('fonts/CevicheOne-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'OpenSans';
+    src: url('fonts/OpenSans-VariableFont_wdth\,wght.ttf') format('truetype');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'OpenSans';
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'CevicheOne';
+}
+
+h1 {
+    padding-top: 30px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+a {
+    color: inherit;      
+}
+
+header section {
+    min-height: 160px;
+    background-color: #bf0000;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+header nav {
+    text-align: center;
+}
+
+header nav div {
+    padding: 10px;
+    background-color: #860000;
+}
+
+header nav div a {
+    text-decoration: none; 
+    color: inherit;      
+    outline: none;         
+    background: transparent; 
+    border: none;        
+    cursor: pointer;     
+    color: aliceblue;
+}
+
+main section {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+main .section1{
+    background-color: black;
+}
+
+main p {
+    color: aliceblue;
+    text-align: justify;
+    padding-bottom: 30px;
+}
+
+main .section1 h1 {
+    color: #bf0000;
+    font-size: 32px;
+    font-weight: 500;
+}
+
+main a {
+    color: #860000;
+}
+
+main .section2 {
+    background-image: url(../03_SushiSan/img/fond.png);
+}
+
+main .section2 h1 {
+    font-size: 28px;
+    font-weight: 500;
+}
+
+main .section2 h2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+main .section2 .part-1 {
+    color: #860000;  
+}
+
+main .section2 #part-2modifier {
+    padding-right: 0.5em;
+  }
+
+main .section2 .part-2 {
+    color: #383434;
+}
+
+main .section2 p.deco {
+    text-align: center;
+    color: #860000;
+    font-size: 1em;
+}
