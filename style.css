@@ -1,5 +1,6 @@
 @font-face {
-    font-family: 'CevicheOne';  /* Nom de la police que vous allez utiliser */
+    font-family: 'CevicheOne';
+    /* Nom de la police que vous allez utiliser */
     src: url('fonts/CevicheOne-Regular.ttf') format('truetype');
 }
 
@@ -18,7 +19,12 @@ body {
     font-family: 'OpenSans';
 }
 
-h1, h2, h3, h4, h5 {
+h1,
+h2,
+h3,
+h4,
+h5,
+body footer p.Titre2 {
     font-family: 'CevicheOne';
 }
 
@@ -29,7 +35,7 @@ h1 {
 }
 
 a {
-    color: inherit;      
+    color: inherit;
 }
 
 header section {
@@ -51,12 +57,12 @@ header nav div {
 }
 
 header nav div a {
-    text-decoration: none; 
-    color: inherit;      
-    outline: none;         
-    background: transparent; 
-    border: none;        
-    cursor: pointer;     
+    text-decoration: none;
+    color: inherit;
+    outline: none;
+    background: transparent;
+    border: none;
+    cursor: pointer;
     color: aliceblue;
 }
 
@@ -65,7 +71,7 @@ main section {
     padding-right: 20px;
 }
 
-main .section1{
+main .section1 {
     background-color: black;
 }
 
@@ -86,7 +92,7 @@ main a {
 }
 
 main .section2 {
-    background-image: url(../03_SushiSan/img/fond.png);
+    background-image: url(../HTML-CSS-Revisited-Best-Practices-and-Structure/img/fond.png);
 }
 
 main .section2 h1 {
@@ -99,15 +105,18 @@ main .section2 h2 {
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
+    padding-top: 1em;
+    padding-bottom: 0.5em;
+    border-top: 0.5em dotted #860000;
 }
 
 main .section2 .part-1 {
-    color: #860000;  
+    color: #860000;
 }
 
 main .section2 #part-2modifier {
     padding-right: 0.5em;
-  }
+}
 
 main .section2 .part-2 {
     color: #383434;
@@ -117,4 +126,54 @@ main .section2 p.deco {
     text-align: center;
     color: #860000;
     font-size: 1em;
+}
+
+main .section2 .recipe {
+    width: 100%;
+    overflow: hidden;
+}
+
+main .section2 img {
+    float: left;
+    width: 40%;
+    padding: 10px;
+}
+
+main .section2 p {
+    color: #383434;
+}
+
+main .section2 .articleBtn {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-self: center;
+    padding-bottom: 1.5em;
+}
+
+main .section2 .articleBtn a {
+    display: grid;
+    text-decoration: none;
+    place-items: center;
+    text-align: center;
+    min-width: 50%;
+    min-height: 40px;
+    color: aliceblue;
+    background-color: #860000;
+}
+
+footer {
+    color: aliceblue;
+    background-color: #cd000e;
+}
+
+footer p.Titre2 {
+    font-size: 28px;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+footer #footerSpan {
+    color: #ff1930;
 }
