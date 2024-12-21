@@ -40,7 +40,7 @@ pour identifier les sélecteurs CSS facilement.
 
                                     #######################################
 
-Cet exercice a été très intéressant et m'a permit un meileurs comprehension global de l'utilisation de HTML lié
+Cet exercice a été très intéressant et m'a permit une meileurs comprehension global de l'utilisation de HTML lié
 au CSS. En effet, grâce une structure propre du HTML et des selecteurs CSS bien ajustés, les deux codes l'un à 
 côté de l'autre étaient simple à lire et à comprendre.
 
