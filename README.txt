@@ -1,8 +1,8 @@
-██   ██ ███████ ██      ██       ██████  
-██   ██ ██      ██      ██      ██    ██ 
-███████ █████   ██      ██      ██    ██ 
-██   ██ ██      ██      ██      ██    ██ 
-██   ██ ███████ ███████ ███████  ██████
+                                    ██   ██ ███████ ██      ██       ██████  
+                                    ██   ██ ██      ██      ██      ██    ██ 
+                                    ███████ █████   ██      ██      ██    ██ 
+                                    ██   ██ ██      ██      ██      ██    ██ 
+                                    ██   ██ ███████ ███████ ███████  ██████
 
 ####################################################################################################################
 
@@ -13,6 +13,15 @@ maintainability, and the efficiency of the code.
 
 This work includes the use of Emmet shortcuts to speed development and clear conventions to identify 
 CSS selectors easily.
+
+                                    #######################################
+
+This exercise was very interesting and gave me a better overall understanding of the use of linked HTML.
+at CSS. Indeed, thanks to a clean structure of the HTML and well-adjusted CSS selectors, the two codes one by one 
+side by side were easy to read and understand.
+
+As a result, I was able to practice more simply developing responsive interfaces as well as with 
+"display" property of CSS, more specifically "flex" and "grid".
 
 
 ####################################################################################################################
@@ -25,4 +34,11 @@ améliorer la lisibilité, la maintenance et l'efficacité du code.
 Ce travail inclut l'utilisation des raccourcis Emmet pour accélérer le développement et des conventions claires 
 pour identifier les sélecteurs CSS facilement.
 
+                                    #######################################
 
+Cet exercice a été très intéressant et m'a permit un meileurs comprehension global de l'utilisation de HTML lié
+au CSS. En effet, grâce une structure propre du HTML et des selecteurs CSS bien ajustés, les deux codes l'un à 
+côté de l'autre étaient simple à lire et à comprendre.
+
+J'ai pu de ce fait, m'exercer plus simplement au développement des interfaces responsives ainsi qu'avec la 
+propriété "display" de CSS, plus particulièrement "flex" et "grid".
