@@ -16,7 +16,7 @@ CSS selectors easily.
 
                                     #######################################
 
-This exercise was very interesting and gave me a better overall understanding of the use of linked HTML.
+This exercise was very interesting and gave me a better overall understanding of the use of linked HTML
 at CSS. Indeed, thanks to a clean structure of the HTML and well-adjusted CSS selectors, the two codes one by one 
 side by side were easy to read and understand.
 
