@@ -6,7 +6,9 @@
 
 ####################################################################################################################
 
-This project aims to dive back into the use of HTML and CSS by adopting a modern and structured approach. 
+This project aims to dive back into the use of HTML and CSS by adopting a modern and structured approach.
+The objective of this exercise is to reproduce the mobile, tablet and desktop interfaces from three mock-ups and
+to manage responsiveness. 
 
 With careful attention to HTML semantics and intuitive CSS organization, it illustrates how to improve readability, 
 maintainability, and the efficiency of the code. 
@@ -26,7 +28,9 @@ As a result, I was able to practice more simply developing responsive interfaces
 
 ####################################################################################################################
 
-Ce projet vise à replonger dans l'utilisation de HTML et CSS en adoptant une approche moderne et structurée. 
+Ce projet vise à replonger dans l'utilisation de HTML et CSS en adoptant une approche moderne et structurée.
+L'objectif de cette exercice est de reproduire à partir de trois mock up les interfaces mobile, tablette et 
+desktop et de gérer le responsive 
 
 Grâce à une attention particulière à la sémantique HTML et une organisation CSS intuitive, il illustre comment 
 améliorer la lisibilité, la maintenance et l'efficacité du code. 
