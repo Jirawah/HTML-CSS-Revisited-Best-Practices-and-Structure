@@ -19,12 +19,7 @@ body {
     font-family: 'OpenSans';
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-body footer p.Titre2 {
+h1, h2, h3, h4, h5, body section.actuEvent p.Titre2, body section.actuEvent p.Titre3{
     font-family: 'CevicheOne';
 }
 
@@ -38,7 +33,7 @@ a {
     color: inherit;
 }
 
-header section {
+header #svg {
     min-height: 160px;
     background-color: #bf0000;
     display: flex;
@@ -129,7 +124,7 @@ main .section2 p.deco {
 }
 
 main .section2 .recipe {
-    width: 100%;
+    min-width: 100%;
     overflow: hidden;
 }
 
@@ -162,18 +157,144 @@ main .section2 .articleBtn a {
     background-color: #860000;
 }
 
-footer {
+body section.actuEvent {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 2em;
+}
+
+body section.actuEvent {
     color: aliceblue;
     background-color: #cd000e;
 }
 
-footer p.Titre2 {
+body section.actuEvent p.Titre2 {
     font-size: 28px;
     text-align: center;
     padding-top: 30px;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
 }
 
-footer #footerSpan {
+body section.actuEvent #footerSpan {
     color: #ff1930;
+}
+
+body section.actuEvent .Titre3 {
+    font-weight: 500;
+    font-size: 24px;
+    padding-bottom: 0.6em;
+    padding-top: 1em;
+}
+
+body section.actuEvent p img {
+    width: 0.8em;
+    height: auto;
+    max-width: 50px;
+    
+}
+
+#copyright {
+    text-align: center;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    background-color: aliceblue;
+}
+
+
+@media (min-width: 700px) {
+   body {
+    margin-top: 120px;
+   }
+
+   header div#svg  {
+    border-top: 4px #860000 solid;
+    border-bottom: 4px #860000 solid;
+   }
+
+   header nav.navStyle{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5em;
+    margin-bottom: 50px;
+   }
+
+   header nav div.navBtn {
+    border-radius: 0 0 10px 10px;
+   }
+
+   main section.section2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding-bottom: 1em;
+   }
+
+   main section.section2 h1 {
+    width: 100%;
+    text-align: center;
+   }
+
+   main section.section2 .art {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+    width: 100%;
+   }
+   
+   main section.section2 .art .recipe {
+    flex: 1;
+    min-width: 45%; 
+   }
+}
+
+@media (min-width: 1000px) {
+    body {
+        margin-top: 80px;
+       }
+
+    main {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        grid-template-rows: auto;
+        gap: 20px;
+        padding: 0 10%;
+    }
+
+    main .section1 {
+        grid-column: 1 / 3;
+        border: 4px #860000 solid;
+        margin-bottom: 2em;
+        border-radius: 10px;
+    }
+
+    main .section2 {
+        border: 4px #860000 solid;
+        border-radius: 10px;
+    }
+
+    main .section2 h2 {
+        border-top: 0.5em;
+    }
+
+    main .section2 .art {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    body main section.actuEvent {
+        grid-column: 2;
+        grid-row: 2;
+        align-self: start;
+        border: 4px #860000 solid;
+        border-radius: 10px;
+    }
+
+    body main section.actuEvent p {
+        margin-bottom: 1em;
+    }
 }
